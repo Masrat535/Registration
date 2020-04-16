@@ -1,0 +1,69 @@
+
+<html>
+    <head>
+        <style>
+            #login {
+	border: 2px solid lightgray;
+	width: 400px;
+	height: 600px;
+	padding: 10px;
+	margin: auto;
+	margin-top: 30px;
+	background: rgb(220, 225, 231);
+	border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+}
+#title {
+	font-family: cursive;
+	font-size: 30px;
+	text-align: center;
+}
+button {
+	border-radius: 5px;
+	padding: 6px;
+	width: 40%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background: rgb(51, 93, 197);
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+body{
+    background-image:url(images/3.webp);
+}
+
+ </style>
+        
+        </head>
+    <body>
+
+        <div id="login">
+            <p id="title">Registration Form</p>
+
+        <form  method="post">
+        User Name: <input type="text" placeholder="enter ur name" name="name" required><br>
+            <br>
+        Email-id: <input type="text" placeholder="enter ur email-id" name="email-id" required><br>
+            <br>
+        Mobile-No: <input type="text" placeholder="enter mobile number" name="mobile-no"><br><br>
+        Date of Birth:<input type="date" name="date"><br><br>
+        Address:   <label for="address" ></label><textarea id="address" placeholder="textarea..."   rows="3" cols="30" ></textarea><br><br>
+        Gender:  <input type="radio" name="gender" value="male">Male<input type="radio" name="gender" value="female">Female<br><br>
+        Qualification:  <label for="Qualification"></label>
+        <select id="Qualification">
+          <option value="Btech">Btech</option>
+          <option value="Mba">Mba</option>
+          <option value="Bca">Bca</option>
+          <option value="Mtech">Mtech</option>
+        </select><br><br>
+        Technologies:<input type="checkbox" name="technology" value="C">C
+        <input type="checkbox" name="technology" value="C++">C++
+        <input type="checkbox" name="technology" value="Java">Java
+        <input type="checkbox" name="technology" value="Python">Python<br><br>
+            <button type="Submit">Submit</button>
+            <button type="Submit">Reset</button>
+        </form>
+    </body>
+</html>
