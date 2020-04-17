@@ -1,40 +1,7 @@
-
+<!DOCTYPE html>
 <html>
     <head>
-        <style>
-            #login {
-	border: 2px solid lightgray;
-	width: 400px;
-	height: 600px;
-	padding: 10px;
-	margin: auto;
-	margin-top: 30px;
-	background: rgb(220, 225, 231);
-	border-radius: 5px;
-    font-size: 20px;
-    text-align: center;
-}
-#title {
-	font-family: cursive;
-	font-size: 30px;
-	text-align: center;
-}
-button {
-	border-radius: 5px;
-	padding: 6px;
-	width: 40%;
-	margin-top: 5px;
-	margin-bottom: 5px;
-	background: rgb(51, 93, 197);
-	font-size: 20px;
-	color: white;
-	cursor: pointer;
-}
-body{
-    background-image:url(images/3.webp);
-}
-
- </style>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         
         </head>
     <body>
@@ -42,7 +9,7 @@ body{
         <div id="login">
             <p id="title">Registration Form</p>
 
-        <form  method="post">
+        <form method="post" >
         User Name: <input type="text" placeholder="enter ur name" name="name" required><br>
             <br>
         Email-id: <input type="text" placeholder="enter ur email-id" name="email-id" required><br>
@@ -65,5 +32,6 @@ body{
             <button type="Submit">Submit</button>
             <button type="Submit">Reset</button>
         </form>
+        </div>
     </body>
 </html>
